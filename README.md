@@ -1,385 +1,384 @@
+> 🇺🇸 This page in English: [README.en.md](README.en.md)
+
 <div align="center">
 
 <img src="docs/assets/icon-512.png" width="96" alt="">
 
 # Free My TV
 
-**A fast, ad-free home screen for Google TV, LG and Samsung TVs.**
+**Uma tela inicial rápida e sem anúncios para TVs Google TV, LG e Samsung.**
 
-Trending picks from your own apps, the weather at a glance, and a look that follows the sunset.<br>
-Open source. Built with Claude Code. One button to undo.
+Recomendações em alta dos seus próprios apps, o tempo na hora, e um visual que acompanha o pôr do sol.<br>
+Código aberto. Feito com Claude Code. Um botão para desfazer.
 
-[**freemytv.io**](https://freemytv.io) · [Install](#install) · [LG TVs](#lg-tvs-webos) · [Samsung TVs](#samsung-tvs-tizen) · [Any TV](#any-tv) · [Make it yours](#make-it-yours)
+[**freemytv.io**](https://freemytv.io) · [Instalação](#instalação) · [TVs LG](#tvs-lg-webos) · [TVs Samsung](#tvs-samsung-tizen) · [Qualquer TV](#qualquer-tv) · [Deixe com a sua cara](#deixe-com-a-sua-cara)
 
-<img src=".github/preview.webp" width="880" alt="The Free My TV home screen: a glass shelf of apps, trending picks, and a drawer with the weather and crypto prices">
+<img src=".github/preview.webp" width="880" alt="A tela inicial do Free My TV: uma prateleira de vidro com apps, recomendações em alta e uma gaveta com o tempo e os preços das criptos">
 
 </div>
 
-## What you get
+## O que você ganha
 
-- **No ads.** No sponsored rows, banners or autoplaying promos. Not one.
-- **Your apps, front and center.** The streaming apps you actually use, on a glass shelf. Pick them and their order right on the TV.
-- **Trending, not sponsored.** Three fresh picks every hour (up to six, in Home Settings) from what's trending this week and the latest releases, only from apps you already have, and from the services you choose. The focused one opens wide and the others show their posters. Movies and Shows get their own tabs, and on Google TV your own [Plex library](#your-plex-library-optional) can join in.
-- **Continue Watching** (Google TV and Android TV). *Home Settings* → *Top of the screen* puts what you left halfway in your apps on top, with its progress, and OK picks it up in its app. Or a big clock, or the picks.
-- **Your TMDB key from your phone.** *Home Settings* → *TMDB key* shows a QR code: scan it and paste the key. On LG and Samsung, type it with the remote.
-- **Weather and markets, one press away.** The hour-by-hour forecast (or the next 5 days), sunrise and sunset, and live crypto prices.
-- **What's playing.** Music, a podcast or the radio going on in the background shows on the home screen and the screensaver: the title, the artist and the app, from any app that tells Android what it plays (*Home Settings*, off until you turn it on).
-- **The status at a glance, and a mouse** (Google TV and Android TV). *Home Settings* → *Status icons* puts Wi-Fi or Ethernet, Bluetooth audio and a USB drive at the top of the home screen; off, nothing listens for them. A mouse or an air-mouse remote works too: hover moves the focus, the wheel scrolls, a click picks.
-- **Light by day, dark by night.** It follows your city's real sunset, the way your phone does.
-- **A screensaver to match.** Full-screen photos of the picks with a big glass clock. On LG and Samsung, *Home Settings* → *Screensaver* can make it a large clock with the weather instead, drifting slowly so it doesn't burn into OLED screens. Optionally (*Watch from the screensaver*, in Home Settings), OK opens the title on screen in its app, and any other button just closes it.
-- **Dimming for a dark room** (LG and Samsung). *Home Settings* → *Dim* darkens Free My TV's own screens, not the apps you open: low, medium, high, or automatic (medium from 22:00 to 07:00). Off until you pick it.
-- **Your own photos** (Google TV and Android TV). Send them from your computer (up to 100): the screensaver shows them, and without picks one is the home screen's background each hour.
-- **Fast.** 60 fps, every frame in 16.6 ms, on the TV's own chip. The home screen uses 96 MB of memory instead of 242 MB (−60%).<br><sub>Measured on a 98″ TCL Google TV running Android 14.</sub>
-- **Set up on the TV.** Language, your city, temperature, theme, how many picks and which streaming services they come from, the weather and prices cards, the forecast's hours or days, which coins, and the apps on the shelf, in Free My TV's own settings.
-- **Safe.** No root. Nothing is uninstalled. One button brings back the factory home screen.
+- **Sem anúncios.** Nenhuma linha patrocinada, banner ou promoção com reprodução automática. Nem um.
+- **Seus apps, em primeiro plano.** Os apps de streaming que você realmente usa, numa prateleira de vidro. Escolha quais e em que ordem na própria TV.
+- **Em alta, não patrocinado.** Três recomendações novas a cada hora (até seis, em Ajustes da Tela Inicial) entre o que está em alta na semana e os lançamentos, só de apps que você já tem, e dos serviços que você escolher. A selecionada abre em destaque e as outras mostram seus pôsteres. Filmes e Séries têm abas próprias, e na Google TV a sua [biblioteca Plex](#sua-biblioteca-plex-opcional) pode entrar junto.
+- **Continuar Assistindo** (Google TV e Android TV). *Ajustes da Tela Inicial* → *Topo da tela* põe o que você deixou pela metade nos seus apps no topo, com o progresso, e o OK continua no app. Ou um grande relógio, ou as recomendações.
+- **Sua chave do TMDB pelo celular.** *Ajustes da Tela Inicial* → *Chave TMDB* mostra um QR code: escaneie e cole a chave. Na LG e Samsung, digite com o controle.
+- **Tempo e mercados, a um toque.** A previsão hora a hora (ou os próximos 5 dias), nascer e pôr do sol, e preços de criptomoedas ao vivo.
+- **O que está tocando.** Música, podcast ou rádio rodando em segundo plano aparece na tela inicial e no protetor de tela: título, artista e app, de qualquer app que informa ao Android o que toca (*Ajustes da Tela Inicial*, desligado até você ativar).
+- **O status num relance, e mouse** (Google TV e Android TV). *Ajustes da Tela Inicial* → *Ícones de status* põe Wi‑Fi ou Ethernet, áudio Bluetooth e um drive USB no topo da tela inicial; desligado, nada fica escutando por eles. Um mouse ou controle air-mouse também funciona: o hover move o foco, a roda rola a tela, o clique seleciona.
+- **Claro de dia, escuro à noite.** Segue o pôr do sol real da sua cidade, como no seu celular.
+- **Um protetor de tela à altura.** Fotos em tela cheia das recomendações com um grande relógio de vidro. Na LG e Samsung, *Ajustes da Tela Inicial* → *Protetor de tela* pode torná-lo um grande relógio com o tempo, deslizando devagar para não queimar a tela OLED. Opcionalmente (*Assistir do protetor de tela*, nos Ajustes da Tela Inicial), o OK abre o título na tela, no app dele, e qualquer outro botão só fecha.
+- **Escurecimento para sala escura** (LG e Samsung). *Ajustes da Tela Inicial* → *Escurecer* escurece as telas do próprio Free My TV, não os apps que você abre: baixo, médio, alto, ou automático (médio das 22:00 às 07:00). Desligado até você escolher.
+- **Suas próprias fotos** (Google TV e Android TV). Envie do seu computador (até 100): o protetor de tela as mostra, e sem recomendações uma delas é o fundo da tela inicial a cada hora.
+- **Rápido.** 60 fps, cada quadro em 16,6 ms, no chip da própria TV. A tela inicial usa 96 MB de memória em vez de 242 MB (−60%).<br><sub>Medido em uma TCL Google TV de 98″ rodando Android 14.</sub>
+- **Configurável na TV.** Idioma, sua cidade, temperatura, tema, quantas recomendações e de quais serviços de streaming elas vêm, os cartões de tempo e preços, a previsão em horas ou dias, quais moedas e os apps da prateleira, nos ajustes do próprio Free My TV.
+- **Seguro.** Sem root. Nada é desinstalado. Um botão traz de volta a tela inicial de fábrica.
 
-## Install
+## Instalação
 
-About ten minutes. You need a Google TV or Android TV (Android 8 or newer) and a computer on the same Wi-Fi. The APK goes on the TV, not on your phone (on a phone, the settings say so and nothing switches).
+Cerca de dez minutos. Você precisa de uma Google TV ou Android TV (Android 8 ou mais novo) e um computador no mesmo Wi‑Fi. O APK vai na TV, não no celular (no celular, os ajustes avisam e nada troca).
 
-### The easy way: an AI assistant
+### O caminho fácil: um assistente de IA
 
-1. **On the TV**, turn on developer mode: Settings → System → About → press *Android TV OS build* 7 times. Then Settings → System → Developer options → turn on **USB debugging**. Write down the TV's IP address (Settings → Network & Internet).
-2. **On your computer**, open an AI coding assistant ([Claude Code](https://claude.com/claude-code), Codex or Antigravity) and say:
-   > Install Free My TV (github.com/simbasjungles/free-my-tv) on my TV at 192.168.1.50. I live in Lisbon.
+1. **Na TV**, ligue o modo desenvolvedor: Configurações → Sistema → Sobre → pressione *Android TV OS build* 7 vezes. Depois Configurações → Sistema → Opções do desenvolvedor → ligue a **Depuração USB**. Anote o endereço IP da TV (Configurações → Rede e Internet).
+2. **No computador**, abra um assistente de codificação por IA ([Claude Code](https://claude.com/claude-code), Codex ou Antigravity) e diga:
+   > Instale o Free My TV (github.com/simbasjungles/free-my-tv) na minha TV em 192.168.1.50. Eu moro em Lisboa.
 
-   It downloads the code, installs the tools it needs, builds the app and puts it on your TV, and asks before anything important. Swap in your TV's IP and your city.
-3. **On the TV**, open *Free My TV* → *Home Screen* → *Free My TV*. That's when the TV asks *Allow USB debugging?* for Free My TV: tick *Always allow* and accept.
+   Ele baixa o código, instala as ferramentas necessárias, compila o app e põe na sua TV, e pergunta antes de qualquer coisa importante. Troque pelo IP da sua TV e pela sua cidade.
+3. **Na TV**, abra *Free My TV* → *Tela Inicial* → *Free My TV*. É quando a TV pergunta *Permitir depuração USB?* para o Free My TV: marque *Sempre permitir* e aceite.
 
-### The ready APK
+### O APK pronto
 
-No tools to install besides adb. The APK on the [latest release](https://github.com/simbasjungles/free-my-tv/releases/latest) has no TMDB key: add yours on the TV for the picks (*Home Settings* → *TMDB key*, [below](#the-tmdb-key)). It takes your city from the TV's time zone (change it in *Home Settings* → *City*).
+Nenhuma ferramenta para instalar além do adb. O APK da [última release](https://github.com/simbasjungles/free-my-tv/releases/latest) não tem chave TMDB: adicione a sua na TV para ter as recomendações (*Ajustes da Tela Inicial* → *Chave TMDB*, [abaixo](#a-chave-do-tmdb)). Ele tira a sua cidade do fuso horário da TV (mude em *Ajustes da Tela Inicial* → *Cidade*).
 
-If you built Free My TV yourself before, switch back to *Original* and uninstall it first: your build and the release are signed with different keys.
+Se você já compilou o Free My TV você mesmo antes, volte para o *Original* e desinstale primeiro: o seu build e a release são assinados com chaves diferentes.
 
-1. **On the TV**, do step 1 above.
-2. **On your computer**, download `FreeMyTV.apk` from the release and install it:
+1. **Na TV**, faça o passo 1 acima.
+2. **No computador**, baixe o `FreeMyTV.apk` da release e instale:
    ```bash
    adb connect 192.168.1.50:5555
    adb install -r FreeMyTV.apk
    ```
-   On Android 14, Google Play Protect may hold the install with *Risky app blocked*: choose *More details* → *Install anyway*.
+   No Android 14, o Google Play Protect pode travar a instalação com *App arriscado bloqueado*: escolha *Mais detalhes* → *Instalar mesmo assim*.
 
-   Install it with adb like this, not by opening the APK on the TV: from a file manager or a browser, Play Protect can refuse it outright with *App blocked to protect your device* (in some countries it blocks sideloaded apps that have an accessibility service or a notification listener, which Free My TV uses for the remote's buttons and Now Playing; #378).
+   Instale pelo adb assim, não abrindo o APK na TV: de um gerenciador de arquivos ou navegador, o Play Protect pode recusar de vez com *App bloqueado para proteger seu dispositivo* (em alguns países ele bloqueia apps instalados por fora que têm um serviço de acessibilidade ou um listener de notificações, que o Free My TV usa para os botões do controle e o Tocando Agora; #378).
 
-   On TCL TVs, also let it run in the background (TCL blocks it by default, and the switch never starts). An uninstall takes the permission back, so run it again after every new install:
+   Em TVs TCL, deixe também o app rodar em segundo plano (a TCL bloqueia por padrão, e a troca nunca começa). Uma desinstalação devolve a permissão, então rode de novo após cada nova instalação:
    ```bash
    adb shell "appops set io.freemytv AUTO_START allow || appops set io.freemytv APP_AUTO_START allow"
    ```
-3. **On the TV**, do step 3 above.
+3. **Na TV**, faça o passo 3 acima.
 
-For the picks, add your TMDB key in *Home Settings* → *TMDB key* (below).
+Para as recomendações, adicione sua chave TMDB em *Ajustes da Tela Inicial* → *Chave TMDB* (abaixo).
 
-**Updates come to the TV.** Once a week the APK from the release looks for a newer release and downloads it; the home screen then says so once, and *Home Settings* → *Updates* (the last row) installs it through Android's installer, which asks first (and, the first time, asks to allow Free My TV to install apps). OK on *Updates* also checks right away. The download must come from this repository's releases, match the size and SHA-256 GitHub lists, be newer, and be signed with the project's key. A build you made yourself checks only when you press *Updates*, and only says when a new version is out: build it again to update.
+**As atualizações chegam na TV.** Uma vez por semana o APK da release procura por uma release mais nova e baixa; a tela inicial avisa uma vez, e *Ajustes da Tela Inicial* → *Atualizações* (a última linha) instala pelo instalador do Android, que pergunta antes (e, na primeira vez, pede para permitir que o Free My TV instale apps). O OK em *Atualizações* também verifica na hora. O download precisa virar das releases deste repositório, bater com o tamanho e o SHA-256 que o GitHub lista, ser mais novo e estar assinado com a chave do projeto. Um build feito por você só verifica quando você aperta *Atualizações*, e só avisa quando sai versão nova: compile de novo para atualizar.
 
-### The manual way
+### O caminho manual
 
-1. **On the TV**, do step 1 above.
-2. **Tools:** a JDK (17+), the Android SDK command-line tools (build-tools 34, platform android-34) and adb. On a Mac:
+1. **Na TV**, faça o passo 1 acima.
+2. **Ferramentas:** um JDK (17+), as ferramentas de linha de comando do SDK do Android (build-tools 34, platform android-34) e o adb. No Mac:
    ```bash
    brew install --cask temurin android-commandlinetools android-platform-tools
    sdkmanager "build-tools;34.0.0" "platforms;android-34"
    ```
-   On Linux, get OpenJDK 17, Android's command-line tools and adb from your package manager, then run the same `sdkmanager` line. On Windows, use Git Bash (which Claude Code uses there) or WSL.
-3. **Build:**
+   No Linux, pegue o OpenJDK 17, as ferramentas de linha de comando do Android e o adb no gerenciador de pacotes, e rode a mesma linha do `sdkmanager`. No Windows, use o Git Bash (que o Claude Code usa lá) ou o WSL.
+3. **Compile:**
    ```bash
    ./build.sh
    ```
-   The first run creates `config.properties`. Set your city and your [TMDB key](#the-tmdb-key) there, then run it again.
-4. **Install:**
+   A primeira execução cria o `config.properties`. Ponha sua cidade e sua [chave TMDB](#a-chave-do-tmdb) lá, e rode de novo.
+4. **Instale:**
    ```bash
    adb connect 192.168.1.50:5555
    adb install -r FreeMyTV.apk
    ```
-   If the install seems stuck, look at the TV: on Android 14, Google Play Protect may hold it with *Risky app blocked* ("built for an older version of Android"), since Free My TV targets Android 13. Choose *More details* → *Install anyway*. Updates don't ask again.
+   Se a instalação parecer travada, olhe a TV: no Android 14, o Google Play Protect pode segurá-la com *App arriscado bloqueado* ("feito para uma versão mais antiga do Android"), já que o Free My TV mira o Android 13. Escolha *Mais detalhes* → *Instalar mesmo assim*. Atualizações não perguntam de novo.
 
-   Chromecast with Google TV on Android 14 keeps port 5555 closed even with USB debugging on: turn on *Wireless debugging* (Developer options), pair with `adb pair <address:port> <code>`, then run `adb tcpip 5555` over that connection. Port 5555 closes again at every restart, so after one, *Original*, the watchdog and the boot check can't reach ADB until you run `adb tcpip 5555` again (the pairing stays).
+   O Chromecast com Google TV no Android 14 mantém a porta 5555 fechada mesmo com a depuração USB ligada: ligue a *Depuração por Wi-Fi* (Opções do desenvolvedor), pareie com `adb pair <endereço:porta> <código>`, e rode `adb tcpip 5555` por essa conexão. A porta 5555 fecha de novo a cada reinício, então depois de um, o *Original*, o watchdog e a checagem de boot não alcançam o ADB até você rodar `adb tcpip 5555` de novo (o pareamento fica).
 
-   On TCL TVs, also let it run in the background (TCL blocks it by default, and the switch never starts). An uninstall takes the permission back, so run it again after every new install:
+   Em TVs TCL, deixe também o app rodar em segundo plano (a TCL bloqueia por padrão, e a troca nunca começa). Uma desinstalação devolve a permissão, então rode de novo após cada nova instalação:
    ```bash
    adb shell "appops set io.freemytv AUTO_START allow || appops set io.freemytv APP_AUTO_START allow"
    ```
-5. **On the TV**, open *Free My TV* → *Home Screen* → *Free My TV*. The TV asks *Allow USB debugging?* once more, now for Free My TV itself: tick *Always allow* and accept. (Run `adb disconnect 192.168.1.50:5555` first: on Android 8 to 10 the TV can hand that answer to a computer that's still connected.)
+5. **Na TV**, abra *Free My TV* → *Tela Inicial* → *Free My TV*. A TV pergunta *Permitir depuração USB?* mais uma vez, agora para o próprio Free My TV: marque *Sempre permitir* e aceite. (Rode `adb disconnect 192.168.1.50:5555` antes: no Android 8 a 10 a TV pode entregar essa resposta a um computador ainda conectado.)
 
-   On some TCL TVs (Android 11, Realtek), a second background killer, TGuard, can stop the switch while it measures the original home screen: the settings screen closes and the TV's own home screen stays. Android runs the switch again by itself within a minute or two; then press Home: Free My TV opening means it went through.
+   Em algumas TVs TCL (Android 11, Realtek), um segundo matador de segundo plano, o TGuard, pode parar a troca enquanto ela mede a tela original: a tela de ajustes fecha e a tela inicial da TV fica. O Android roda a troca de novo sozinho em um ou dois minutos; depois aperte Home: o Free My TV abrindo significa que deu certo.
 
-## LG TVs (webOS)
+## TVs LG (webOS)
 
-The same home screen as an LG app: the picks, the glass shelf with your apps, the drawer with inputs, weather and prices, day and night, Home Settings and the shelf editor. It installs through LG's own Developer Mode, with nothing rooted or changed on the TV. LG's home screen stays where it is, and Free My TV is one press of a number key away (or in LG's app list, on remotes without them).
+A mesma tela inicial como um app da LG: as recomendações, a prateleira de vidro com seus apps, a gaveta com entradas, tempo e preços, dia e noite, Ajustes da Tela Inicial e o editor da prateleira. Instala pelo modo Developer Mode da própria LG, sem root e sem mudar nada na TV. A tela inicial da LG fica onde está, e o Free My TV está a um toque de uma tecla de número (ou na lista de apps da LG, em controles sem elas).
 
-You need an LG TV (webOS 3 or newer) and a computer on the same Wi-Fi, with Python 3.
+Você precisa de uma TV LG (webOS 3 ou mais nova) e um computador no mesmo Wi‑Fi, com Python 3.
 
-1. **On the TV**, open the LG Content Store and install **Developer Mode**. Sign in with a free [LG developer account](https://webostv.developer.lge.com), turn on **Dev Mode Status** (the TV restarts), then turn on **Key Server**. Write down the IP address and the passphrase it shows.
-2. **On your computer**, get the code and build. `config.properties` works as for Google TV (your city, your [TMDB key](#the-tmdb-key)):
+1. **Na TV**, abra a LG Content Store e instale o **Developer Mode**. Entre com uma [conta de desenvolvedor LG](https://webostv.developer.lge.com) gratuita, ligue o **Dev Mode Status** (a TV reinicia) e depois ligue o **Key Server**. Anote o endereço IP e a passphrase que aparecerem.
+2. **No computador**, pegue o código e compile. O `config.properties` funciona como na Google TV (sua cidade, sua [chave TMDB](#a-chave-do-tmdb)):
    ```bash
    git clone https://github.com/simbasjungles/free-my-tv && cd free-my-tv
    python3 webos/build.py
    ```
-3. **Install.** The first time, it asks for the TV's passphrase; updates don't. On a TV that isn't 4K, it puts the app in at 1280 × 720, the size those TVs draw apps at:
+3. **Instale.** Na primeira vez, ele pede a passphrase da TV; atualizações não. Numa TV que não é 4K, ele põe o app em 1280 × 720, o tamanho em que essas TVs desenham apps:
    ```bash
    python3 webos/install.py 192.168.1.50
    ```
-4. **On the TV**, while Free My TV is open, hold a number key on the remote. From then on, that key opens it from anywhere. On a remote without number keys, open it from LG's app list on the home screen, like any other app.
+4. **Na TV**, com o Free My TV aberto, segure uma tecla de número no controle. Daí em diante, essa tecla o abre de qualquer lugar. Num controle sem teclas de número, abra pela lista de apps da LG na tela inicial, como qualquer outro app.
 
-With an AI assistant, say *"Install Free My TV (github.com/simbasjungles/free-my-tv) on my LG TV at 192.168.1.50. I live in Lisbon."* It builds the app and hands you the install command, so you type the passphrase yourself.
+Com um assistente de IA, diga *"Instale o Free My TV (github.com/simbasjungles/free-my-tv) na minha TV LG em 192.168.1.50. Eu moro em Lisboa."* Ele compila o app e te passa o comando de instalação, e a passphrase você mesmo digita.
 
-With the [webOS Homebrew Channel](https://github.com/webosbrew/webos-homebrew-channel), you can skip the computer: add the repository `https://freemytv.io/webos/apps.json` in the Channel's settings, and Free My TV shows up in its list. That's the release build: it takes the city from the TV's time zone (change it in *Home Settings* → *City*), and for the picks you type your [TMDB key](#the-tmdb-key) in *Home Settings* → *TMDB key*. If you installed your own build, don't update it from there, or the release replaces it. On some LG TVs that aren't 4K, that build fills only the top-left part of the screen: `install.py` puts it in at the right size there.
+Com o [webOS Homebrew Channel](https://github.com/webosbrew/webos-homebrew-channel), dá para dispensar o computador: adicione o repositório `https://freemytv.io/webos/apps.json` nas configurações do Channel, e o Free My TV aparece na lista. Esse é o build da release: ele tira a cidade do fuso horário da TV (mude em *Ajustes da Tela Inicial* → *Cidade*), e para as recomendações você digita sua [chave TMDB](#a-chave-do-tmdb) em *Ajustes da Tela Inicial* → *Chave TMDB*. Se você instalou o seu próprio build, não o atualize por lá, ou a release o substitui. Em algumas TVs LG que não são 4K, esse build preenche só a parte de cima à esquerda da tela: o `install.py` o instala no tamanho certo nelas.
 
-On webOS 6 and newer, LG doesn't let apps installed through Developer Mode see which apps the TV has. Free My TV then shows the well-known ones it finds (Netflix, YouTube, Prime Video, Disney+, Apple TV, Plex and more) and asks the TV, once, for the access LG's phone app uses: a message on the TV asks whether to allow Free My TV. Allow it, and from the next start all your apps show, with their icons.
+Na webOS 6 e mais novas, a LG não deixa apps instalados pelo Developer Mode verem quais apps a TV tem. O Free My TV então mostra os conhecidos que ele encontra (Netflix, YouTube, Prime Video, Disney+, Apple TV, Plex e outros) e pergunta a TV, uma vez, pelo acesso que o app de celular da LG usa: uma mensagem na TV pergunta se permite o Free My TV. Permita, e do próximo início todos os seus apps aparecem, com seus ícones.
 
-Older LG TVs (webOS 3) don't let Free My TV see their apps at all, so the shelf stays empty. There your computer asks the TV instead (the TV asks once whether to allow it), and the list and icons are built into the app. Run it again after installing new apps on the TV:
+TVs LG mais antigas (webOS 3) não deixam o Free My TV ver seus apps de jeito nenhum, e a prateleira fica vazia. Aí o computador pergunta à TV no lugar do app (a TV pergunta uma vez se permite), e a lista e os ícones vão embutidos no app. Rode de novo depois de instalar apps novos na TV:
 ```bash
 python3 webos/apps.py 192.168.1.50 && python3 webos/build.py && python3 webos/install.py 192.168.1.50
 ```
 
-Developer Mode lasts about 40 days: open the Developer Mode app now and then and press **EXTEND**. To remove Free My TV, run `python3 webos/install.py 192.168.1.50 --uninstall`.
+O Developer Mode dura cerca de 40 dias: abra o app Developer Mode de vez em quando e aperte **EXTEND**. Para remover o Free My TV, rode `python3 webos/install.py 192.168.1.50 --uninstall`.
 
-## Samsung TVs (Tizen)
+## TVs Samsung (Tizen)
 
-The same home screen as a Samsung app, with everything the LG one has: the picks, the shelf, the drawer with the inputs, the weather and the prices, day and night, and its own settings. It installs through Samsung's own Developer Mode, with nothing rooted or changed on the TV, and Samsung's home screen stays where it is.
+A mesma tela inicial como um app da Samsung, com tudo o que a da LG tem: as recomendações, a prateleira, a gaveta com as entradas, o tempo e os preços, dia e noite, e os ajustes próprios. Instala pelo modo Developer Mode da própria Samsung, sem root e sem mudar nada na TV, e a tela inicial da Samsung fica onde está.
 
-You need a Samsung TV on Tizen, from 2015 or newer, and a computer on the same Wi-Fi (a 2015 UE48JU6100 on Tizen 2.3 was reported working, #317, while a 2016 Full HD UE49K5670 refuses developer installs altogether, with `failed[118]` even from Samsung's own `tizen install`, #349: on a 2016 UE49KU6640 and a UN49KU6400 the same answer was a copy left by an earlier failed install, which `python3 tizen/install.py <IP> --uninstall` removed (sign with a Tizen certificate there: a Samsung one kept getting it on the KU6400); Orsay models can't run it, but a Google TV streamer on HDMI can). 2015 and 2016 TVs can't run TizenBrew, so on those build it yourself (below); TV Settings isn't in the drawer there, since apps can't open the TV's settings, nor on 2017 and 2018 TVs (Tizen 3 and 4), which freeze trying (#257); the remote's own Settings button works on all of them.
+Você precisa de uma TV Samsung com Tizen, de 2015 ou mais nova, e um computador no mesmo Wi‑Fi (uma UE48JU6100 de 2015 no Tizen 2.3 foi reportada funcionando, #317, enquanto uma UE49K5670 Full HD de 2016 recusa instalações de desenvolvedor por completo, com `failed[118]` até do `tizen install` da própria Samsung, #349: numa UE49KU6640 e numa UN49KU6400 a mesma resposta foi uma cópia deixada por uma instalação anterior que falhou, que `python3 tizen/install.py <IP> --uninstall` removeu (assine com um certificado Tizen lá: um da Samsung continuava dando o erro na KU6400); modelos Orsay não rodam, mas um streamer Google TV no HDMI roda). TVs de 2015 e 2016 não rodam o TizenBrew, então nelas compile você mesmo (abaixo); os Ajustes da TV não ficam na gaveta nelas, já que apps não conseguem abrir os ajustes da TV, nem nas TVs de 2017 e 2018 (Tizen 3 e 4), que travam tentando (#257); o botão Settings do próprio controle funciona em todas.
 
-1. **On the TV**, open **Apps** and type `1 2 3 4 5` on the remote. Turn **Developer mode** on, type your computer's IP address in **Host PC IP**, and restart the TV.
-2. **On your computer**, download [TizenBrew Installer](https://github.com/reisxd/TizenBrewInstaller/releases/latest), the community's installer for Samsung TVs, open it and connect to your TV.
-3. **Install from GitHub:** type `simbasjungles/free-my-tv`. On 2023 and newer TVs it asks you to sign in to your Samsung account once, to sign the app for your TV.
-4. **Straight to it:** in the TV's settings, under Start Screen Options, turn on **Autorun Last App**: the TV turns on into Free My TV (tested on a 2017 TV; 2019 and 2020 TVs don't reopen it, #356). There, move Free My TV to the first place in the Home bar, so it's one press away.
+1. **Na TV**, abra **Apps** e digite `1 2 3 4 5` no controle. Ligue o **Developer mode**, digite o IP do seu computador em **Host PC IP** e reinicie a TV.
+2. **No computador**, baixe o [TizenBrew Installer](https://github.com/reisxd/TizenBrewInstaller/releases/latest), o instalador da comunidade para TVs Samsung, abra-o e conecte à sua TV.
+3. **Instale do GitHub:** digite `simbasjungles/free-my-tv`. Em TVs de 2023 e mais novas ele pede para entrar na sua conta Samsung uma vez, para assinar o app para a sua TV.
+4. **Direto ao ponto:** nos ajustes da TV, em Start Screen Options, ligue o **Autorun Last App**: a TV liga já no Free My TV (testado numa TV de 2017; TVs de 2019 e 2020 não o reabrem, #356). Aí, mova o Free My TV para o primeiro lugar da barra Home, para ficar a um toque.
 
-This build takes your city from the TV's time zone (change it in *Home Settings* → *City*), and for the trending picks you type your [TMDB key](#the-tmdb-key) in *Home Settings* → *TMDB key*. To build it with your own `config.properties` instead, open the folder in Claude Code and say *"Install Free My TV on my Samsung TV at 192.168.1.50. I live in Lisbon."* It sets up Samsung's tools, and on 2023 and newer TVs you sign in to your Samsung account in the browser to make the certificate. Your signed build installs with `python3 tizen/install.py 192.168.1.50`, which needs only Python: no Tizen Studio, and no Rosetta on Apple Silicon Macs.
+Esse build tira a sua cidade do fuso horário da TV (mude em *Ajustes da Tela Inicial* → *Cidade*), e para as recomendações você digita sua [chave TMDB](#a-chave-do-tmdb) em *Ajustes da Tela Inicial* → *Chave TMDB*. Para compilá-lo com o seu próprio `config.properties`, abra a pasta no Claude Code e diga *"Instale o Free My TV na minha TV Samsung em 192.168.1.50. Eu moro em Lisboa."* Ele configura as ferramentas da Samsung e, em TVs de 2023 e mais novas, você entra na sua conta Samsung no navegador para criar o certificado. O seu build assinado instala com `python3 tizen/install.py 192.168.1.50`, que só precisa de Python: sem Tizen Studio, e sem Rosetta em Macs Apple Silicon.
 
-## Settings
+## Configurações
 
-The first values come from `config.properties`, created by the first build (Google TV, LG and Samsung use the same file). Most of them can also be changed on the TV, in *Free My TV* → *Home Settings*, and the TV's choice wins:
+Os valores iniciais vêm do `config.properties`, criado pelo primeiro build (Google TV, LG e Samsung usam o mesmo arquivo). A maioria também pode ser mudada na TV, em *Free My TV* → *Ajustes da Tela Inicial*, e a escolha feita na TV vence:
 
-| Key | What it does | Default |
+| Chave | O que faz | Padrão |
 |---|---|---|
-| `tmdb_key` | Your free TMDB key, for the picks | empty |
-| `tmdb_region` | Your country (two letters): which titles are on which app | `US` |
-| `watchmode_key` | Optional, free [Watchmode](https://api.watchmode.com/) key: a pick opens the title's page in its app. On Google TV and Android TV you can also send it from your phone | empty |
-| `plex_url` and `plex_token` | Optional, your Plex server's `plex.direct` address and token: its newest titles join the picks and open on their page | empty |
-| `trakt_client_id` | Optional: the Client ID of your own free [Trakt](https://trakt.tv/oauth/applications) API app. Home Settings > Picks then gets a Trakt row to sign in with a code, and the picks start with what you're in the middle of, bring in your watchlist and leave out what you've watched. Google TV only | empty |
-| `home_assistant_url`, `home_assistant_entities` | Optional: buttons for your own [Home Assistant](#home-assistant-buttons-optional) in the bottom drawer (Google TV only; the token goes from the computer, not in here) | empty |
-| `latitude`, `longitude` | Your city, for the weather and the sunset | New York |
-| `city` | The name on the weather card | `Weather` |
-| `hide_animation` | Leave cartoons and anime out of the picks; *Cartoons and anime* in Home Settings (under *Picks* on Google TV) changes it on the TV | `false` |
-| `open_in_stremio` | A pick opens on its page in [Stremio](https://www.stremio.com/) when the Stremio app is on the TV, instead of in the app it streams on. The picks stay the same: only from the TV's own apps. Google TV only | `false` |
-| `language` | `auto` (follows the TV), or a language with a [translation](#translations) (`en`, `pt`, `es`, `de`, `ru`, `fr`, `ja`…) | `auto` |
-| `show_crypto` | Show Binance crypto prices on home and screensaver | `true` |
-| `currency` | Crypto prices in `USD`, `EUR`, `BRL`… | `USD` |
-| `temperature` | `C`, `F` or `auto` | `auto` |
-| `theme` | `auto` (dark from sunset to sunrise), `light` or `dark` | `auto` |
-| `disable_assistant` | Also turn off Google Assistant | `false` |
-| `screensaver` | `false` keeps the TV's own screensaver: Free My TV then changes only the home screen and the promo apps (Google TV) | `true` |
-| `hide_services` | Streaming services to leave out of the picks even when their app is on the TV (`netflix`, `prime`, `disney`…), comma separated; for apps the TV ships that you don't subscribe to. On Google TV and Android TV, a service that TMDB lists in your country under the same name as an app on the TV also appears in *Picks from*, off until you switch it on. It is where the switches in Home Settings › Picks › Picks from start; what you switch on the TV wins. Google TV only | empty |
-| `hide_apps` | Apps to leave out of the shelf, All Apps and the picks, by id or name (part of it), comma separated; for apps the TV ships that can't be uninstalled, like Samsung's built-in Netflix. LG and Samsung only | empty |
-| `shelf_apps` | The shelf's apps in this order, by id or name (part of it), comma separated; changing it wins once over the shelf picked on the TV. On Samsung, a whole app id also brings an app the TV leaves out of its list, like one installed in Developer Mode. LG and Samsung only | empty |
-| `drawer_first` | `true` opens the home screen with the drawer already out (apps in the middle, inputs, weather and prices below), so nothing has to be scrolled to reach the inputs; Back closes it to the full page. For a TV whose streaming apps live on a box, where the picks stay empty. LG and Samsung only | `false` |
-| `immich_server` | Optional: your [Immich](https://immich.app) server: [your own photos](#from-an-immich-server) come from it, on each TV you send its key to (with `tools/send_key.py`, never here). Google TV only | empty |
-| `open_picks_in` | Where a pick opens: `apps` (the streaming app that has it) or `nuvio` (its page in Nuvio, when the TV has it); Home Settings changes it on the TV. LG only (Samsung passes no link yet) | `apps` |
+| `tmdb_key` | Sua chave gratuita do TMDB, para as recomendações | vazia |
+| `tmdb_region` | Seu país (duas letras): quais títulos estão em qual app | `US` |
+| `watchmode_key` | Opcional, chave gratuita do [Watchmode](https://api.watchmode.com/): uma recomendação abre a página do título no app dele. Na Google TV e Android TV você também pode enviá-la do celular | vazia |
+| `plex_url` e `plex_token` | Opcional, o endereço `plex.direct` e o token do seu servidor Plex: os títulos mais novos dele entram nas recomendações e abrem na página deles | vazia |
+| `trakt_client_id` | Opcional: o Client ID do seu próprio app gratuito de API do [Trakt](https://trakt.tv/oauth/applications). Ajustes da Tela Inicial > Recomendações ganha então uma linha Trakt para entrar com um código, e as recomendações começam com o que você está no meio, trazem sua watchlist e deixam de fora o que você já assistiu. Só na Google TV | vazia |
+| `home_assistant_url`, `home_assistant_entities` | Opcional: botões para o seu [Home Assistant](#botões-do-home-assistant-opcional) na gaveta de baixo (só na Google TV; o token vai do computador, nunca aqui) | vazia |
+| `latitude`, `longitude` | Sua cidade, para o tempo e o pôr do sol | Nova York |
+| `city` | O nome no cartão do tempo | `Weather` |
+| `hide_animation` | Deixa desenhos e animes fora das recomendações; *Desenhos e animes* nos Ajustes da Tela Inicial (em *Recomendações* na Google TV) muda isso na TV | `false` |
+| `open_in_stremio` | Uma recomendação abre na página do título no [Stremio](https://www.stremio.com/), quando o app Stremio está na TV, em vez de no app que a transmite. As recomendações continuam as mesmas: só dos apps da própria TV. Só na Google TV | `false` |
+| `language` | `auto` (segue a TV), ou um idioma com [tradução](#traduções) (`en`, `pt`, `es`, `de`, `ru`, `fr`, `ja`…) | `auto` |
+| `show_crypto` | Mostra preços de cripto da Binance na tela inicial e no protetor de tela | `true` |
+| `currency` | Preços das criptos em `USD`, `EUR`, `BRL`… | `USD` |
+| `temperature` | `C`, `F` ou `auto` | `auto` |
+| `theme` | `auto` (escuro do pôr do sol ao nascer do sol), `light` ou `dark` | `auto` |
+| `disable_assistant` | Também desliga o Google Assistente | `false` |
+| `screensaver` | `false` mantém o protetor de tela da TV: o Free My TV então muda só a tela inicial e os apps promocionais (Google TV) | `true` |
+| `hide_services` | Serviços de streaming para deixar fora das recomendações mesmo com o app na TV (`netflix`, `prime`, `disney`…), separados por vírgula; para apps que a TV traz e você não assina. Na Google TV e Android TV, um serviço que o TMDB lista no seu país com o mesmo nome de um app da TV também aparece em *Recomendações de*, desligado até você ativar. É de onde partem as chaves em Ajustes da Tela Inicial › Recomendações › Recomendações de; o que você mudar na TV vence. Só na Google TV | vazia |
+| `hide_apps` | Apps para deixar fora da prateleira, Todos os Apps e das recomendações, por id ou nome (parte dele), separados por vírgula; para apps que a TV traz e não podem ser desinstalados, como a Netflix embutida da Samsung. Só LG e Samsung | vazia |
+| `shelf_apps` | Os apps da prateleira nessa ordem, por id ou nome (parte dele), separados por vírgula; mudar isso vence uma vez sobre a prateleira escolhida na TV. Na Samsung, um id completo de app também traz um app que a TV deixa fora da lista, como um instalado em Developer Mode. Só LG e Samsung | vazia |
+| `drawer_first` | `true` abre a tela inicial com a gaveta já aberta (apps no meio, entradas, tempo e preços embaixo), para não precisar rolar até as entradas; Voltar a fecha para a página completa. Para uma TV cujos apps de streaming moram numa caixa, e as recomendações ficam vazias. Só LG e Samsung | `false` |
+| `immich_server` | Opcional: seu servidor [Immich](https://immich.app): [suas próprias fotos](#de-um-servidor-immich) vêm dele, em cada TV para a qual você envia a chave (com `tools/send_key.py`, nunca aqui). Só na Google TV | vazia |
+| `open_picks_in` | Onde uma recomendação abre: `apps` (o app de streaming que a tem) ou `nuvio` (a página do título no Nuvio, quando a TV o tem); Ajustes da Tela Inicial muda isso na TV. Só na LG (a Samsung ainda não passa link) | `apps` |
 
-Changed something? Run `./build.sh` and install again. Keep `freemytv.keystore`: updates are signed with it.
+Mudou algo? Rode `./build.sh` e instale de novo. Guarde o `freemytv.keystore`: as atualizações são assinadas com ele.
 
-### The TMDB key
+### A chave do TMDB
 
-Free, and it takes two minutes: create an account at [themoviedb.org](https://www.themoviedb.org/signup), then open [Settings → API](https://www.themoviedb.org/settings/api) and request a developer key. Paste the *API Read Access Token* (or the *API Key*) after `tmdb_key=`. It's your key: `config.properties` stays out of git.
+Grátis, e leva dois minutos: crie uma conta em [themoviedb.org](https://www.themoviedb.org/signup), abra [Configurações → API](https://www.themoviedb.org/settings/api) e peça uma chave de desenvolvedor. Cole o *API Read Access Token* (ou a *API Key*) depois de `tmdb_key=`. A chave é sua: o `config.properties` fica fora do git.
 
-On Google TV and Android TV you can also add it on the TV, which the APK from the releases needs: *Home Settings* → *TMDB key*
-shows a QR code. Scan it with your phone (on the same Wi-Fi), paste the key and send it; the TV checks it with TMDB and
-keeps it. The code works once, for 5 minutes, and only while it's on screen. The phone's page is plain HTTP on your own
-Wi-Fi: on a network you don't trust (a hotel's), type the key instead. No phone at hand? *Type it with the remote*: the
-short *API Key* (32 characters) is the easier one to type. A key added on the TV wins over the one in `config.properties`,
-and *Remove the key* goes back to it.
+Na Google TV e Android TV você também pode adicioná-la na TV, o que o APK das releases precisa: *Ajustes da Tela Inicial* → *Chave TMDB* mostra um QR code. Escaneie com o celular (no mesmo Wi‑Fi), cole a chave e envie; a TV a verifica com o TMDB e a guarda. O código vale uma vez, por 5 minutos, e só enquanto está na tela. A página do celular é HTTP puro no seu Wi‑Fi: numa rede em que não confia (a de um hotel), digite a chave. Sem celular à mão? *Digite com o controle*: a *API Key* curta (32 caracteres) é a mais fácil de digitar. Uma chave adicionada na TV vence a do `config.properties`, e *Remover a chave* volta para ela.
 
-On LG and Samsung you can also type it on the TV, in *Home Settings* → *TMDB key*: the short *API Key* (32 characters) is the easier one to type with the remote. TMDB checks it before it's saved, it stays on the TV, and it wins over the one in `config.properties` (*Remove the key* goes back to that one).
+Na LG e Samsung você também pode digitá-la na TV, em *Ajustes da Tela Inicial* → *Chave TMDB*: a *API Key* curta (32 caracteres) é a mais fácil de digitar no controle. O TMDB a verifica antes de salvar, ela fica na TV, e vence a do `config.properties` (*Remover a chave* volta para essa).
 
-### Opening a title, not just its app (optional)
+### Abrindo o título, não só o app (opcional)
 
-With a free [Watchmode](https://api.watchmode.com/) key (*Home Settings* → *Watchmode key* on Google TV and Android TV: a QR code for your phone, or typed, as for the TMDB key; or `watchmode_key=` in `config.properties`, and the TV's wins), a pick opens its own page in the streaming app instead of the app's home. The free plan (2,500 credits a month) is enough: each title costs two requests the first time and is remembered after that. It works where the app takes the title's web address (tested: Prime Video, JioHotstar, Netflix and Disney+); where it doesn't, the pick just opens the app, as without a key.
+Com uma chave gratuita do [Watchmode](https://api.watchmode.com/) (*Ajustes da Tela Inicial* → *Chave Watchmode* na Google TV e Android TV: um QR code para o celular, ou digitada, como a do TMDB; ou `watchmode_key=` no `config.properties`, e a da TV vence), uma recomendação abre a página própria do título no app de streaming em vez da home do app. O plano gratuito (2.500 créditos por mês) basta: cada título custa dois pedidos na primeira vez e fica memorizado depois. Funciona onde o app aceita o endereço web do título (testado: Prime Video, JioHotstar, Netflix e Disney+); onde não aceita, a recomendação só abre o app, como sem chave.
 
-### Home Assistant buttons (optional)
+### Botões do Home Assistant (opcional)
 
-On Google TV and Android TV, the bottom drawer can hold buttons for your own [Home Assistant](https://www.home-assistant.io/): a light, a scene for movie night, a fan. In `config.properties`:
+Na Google TV e Android TV, a gaveta de baixo pode guardar botões para o seu [Home Assistant](https://www.home-assistant.io/): uma luz, uma cena de noite de filme, um ventilador. No `config.properties`:
 
 ```properties
 home_assistant_url=http://homeassistant.local:8123
 home_assistant_entities=light.living_room, scene.movie_night, switch.fan
 ```
 
-Build and install again: *Home Settings* gets a *Home Assistant* row (only builds with an address have it). Then send the token from the computer, a long-lived access token (in Home Assistant: your profile → Security → Long-lived access tokens):
+Compile e instale de novo: *Ajustes da Tela Inicial* ganha uma linha *Home Assistant* (só builds com um endereço a têm). Depois envie o token do computador, um long-lived access token (no Home Assistant: seu perfil → Segurança → Long-lived access tokens):
 
 ```bash
 python3 tools/send_key.py 192.168.1.50 home_assistant_token
 ```
 
-It asks for the token without showing it, checks it with your server, lists what each entity becomes, sends it over adb into the app's private files, and asks the TV whether it arrived (Android 9 and newer). It never goes into the APK or `config.properties`, since any app on the TV can read an installed APK, and a Home Assistant token reaches every service, locks included. A Home Assistant user of its own that isn't an administrator is still safest. `--remove` takes it off the TV again.
+Ele pede o token sem mostrá-lo, verifica no seu servidor, lista o que cada entidade vira, envia por adb para os arquivos privados do app, e pergunta à TV se chegou (Android 9 e mais novos). Ele nunca vai para o APK nem para o `config.properties`, já que qualquer app na TV pode ler um APK instalado, e um token do Home Assistant alcança todos os serviços, cadeados incluídos. Um usuário do Home Assistant próprio que não seja administrador ainda é o mais seguro. `--remove` o tira da TV de novo.
 
-Then turn on *Home Settings* → *Home Assistant* on the TV: it starts off. A group of buttons joins Inputs and Shortcuts, one per entity (up to 8, in your order), with its name from Home Assistant; every tile in the drawer shares one width, so more buttons make them all narrower. OK toggles a light, switch, fan or cover, turns on a scene or script, runs an automation or presses a button; one that is off shows dimmed. Locks and alarms are never offered, since anyone in the room can press a TV remote, and covers only when they shade a window (awning, blind, curtain, shade or shutter): not garage doors, gates or doors, nor a cover without a class, as many garage doors are. A script, scene, automation or button runs whatever it's set to do, so don't list one that unlocks a door, opens the garage or turns off an alarm: the same promise as no locks. The address can be `http://` only on your own network (a private address like `192.168.1.20`, or a `.local`, `.lan` or `.home.arpa` name); anything else needs `https://`, and redirects aren't followed.
+Depois ligue *Ajustes da Tela Inicial* → *Home Assistant* na TV: ele começa desligado. Um grupo de botões entra entre Entradas e Atalhos, um por entidade (até 8, na sua ordem), com o nome que vem do Home Assistant; todo ladrilho da gaveta divide a mesma largura, então mais botões os deixam todos mais estreitos. O OK liga e desliga uma luz, tomada, ventilador ou cortina, acende uma cena ou script, roda uma automação ou aperta um botão; um que está desligado aparece esmaecido. Cadeados e alarmes nunca são oferecidos, já que qualquer um na sala pode apertar um controle de TV, e cortinas só quando sombreiam uma janela (toldo, persiana, cortina, shade ou shutter): não portões de garagem, portões nem portas, nem uma cortina sem classe, como muitos portões de garagem são. Um script, cena, automação ou botão roda o que estiver configurado, então não liste um que destranca uma porta, abre a garagem ou desliga um alarme: a mesma promessa dos cadeados. O endereço pode ser `http://` só na sua rede (um endereço privado como `192.168.1.20`, ou um nome `.local`, `.lan` ou `.home.arpa`); qualquer outra coisa precisa de `https://`, e redirecionamentos não são seguidos.
 
-### Your own photos (optional)
+### Suas próprias fotos (opcional)
 
-On Google TV and Android TV, with the TV connected over adb (see *Install*), send photos or whole folders from your computer:
-
-```bash
-python3 tools/photos.py <TV IP> beach.jpg hills.jpg Holidays/
-```
-
-They land in the app's own folder on the TV (no permission needed); on Android 11, which keeps adb out of other apps' folders, they go through Free My TV itself. The next time the home screen, the screensaver or Free My TV's settings open, the app imports each one: turned upright, cropped to 16:9, resized for the TV and saved without its GPS and other tags; what was sent is then deleted. The screensaver shows them in the order you sent them, instead of the picks' photos; without a TMDB key, one of them is the home screen's background, a new one every hour. *Home Settings* → *My Photos*: the arrows turn them on or off, OK removes them. Up to 100; JPEG, PNG and WebP, and HEIC on Android 9 and newer.
-
-#### From an Immich server
-
-With an [Immich](https://immich.app) server, the TV can fetch them by itself. In `config.properties`, set `immich_server` to its address (`http://192.168.1.20:2283` on your network, or its `https://` address), then build and install again. Then make a key in Immich → *Account Settings* → *API Keys* (`asset.read`, `asset.view`, `asset.download` and `album.read` are enough) and send it to each TV that should show your photos (Android 9 and newer):
+Na Google TV e Android TV, com a TV conectada pelo adb (veja *Instalação*), envie fotos ou pastas inteiras do seu computador:
 
 ```bash
-python3 tools/send_key.py <TV IP> immich_api_key
+python3 tools/photos.py <IP da TV> praia.jpg morros.jpg Ferias/
 ```
 
-It asks for the key without showing it, checks it with your server (a search, a preview and an original, as the TV does), puts it in the app's private storage on the TV over adb, and asks the TV whether it arrived. It never goes into the APK, which any app on the TV can read, nor into `config.properties`; `--remove` takes it off the TV. A TV without the key keeps *My Photos* as above.
+Elas chegam na pasta do próprio app na TV (sem precisar de permissão); no Android 11, que impede o adb de entrar em pastas de outros apps, elas passam pelo próprio Free My TV. Na próxima vez que a tela inicial, o protetor de tela ou os ajustes do Free My TV abrirem, o app importa cada uma: endireitada, cortada para 16:9, redimensionada para a TV e salva sem o GPS dela e outras marcações; o que foi enviado é então apagado. O protetor de tela as mostra na ordem em que você as enviou, no lugar das fotos das recomendações; sem chave TMDB, uma delas é o fundo da tela inicial, uma nova a cada hora. *Ajustes da Tela Inicial* → *Minhas Fotos*: as setas ligam e desligam, o OK remove. Até 100; JPEG, PNG e WebP, e HEIC no Android 9 e mais novos.
 
-Every 6 hours, when the home screen opens, a new random choice of up to 40 photos comes in (at least 1080 pixels on their short side), one at a time, through the same import. Nothing goes before something new has come: at 100 the oldest of Immich's make room, and the photos you sent with `tools/photos.py` always stay. *Home Settings* → *My Photos* then chooses where they come from: *Default* (none of yours: the picks' photos), *Immich: all photos* or one of its albums; after a change, the previous ones go as the new ones arrive. TVs with little memory or a 720p screen take Immich's preview of each photo instead of the original.
+#### De um servidor Immich
 
-A server given as `http://` must be on your own network (a private address like `192.168.1.20`, or a `.local`, `.lan` or `.home.arpa` name; the build stops otherwise), and only its address may be reached without HTTPS; anything else needs `https://` (over Tailscale, the server's `https://<machine>.<tailnet>.ts.net` address, which Tailscale can serve with a certificate). The app never follows a redirect from it, so the key only goes to that address.
+Com um servidor [Immich](https://immich.app), a TV pode buscá-las sozinha. No `config.properties`, ponha em `immich_server` o endereço dele (`http://192.168.1.20:2283` na sua rede, ou o endereço `https://`), e compile e instale de novo. Depois crie uma chave em Immich → *Account Settings* → *API Keys* (`asset.read`, `asset.view`, `asset.download` e `album.read` bastam) e envie a cada TV que deve mostrar suas fotos (Android 9 e mais novos):
 
-### Your Plex library (optional)
+```bash
+python3 tools/send_key.py <IP da TV> immich_api_key
+```
 
-Set `plex_url` and `plex_token` in `config.properties`, and one of the newest movies and one of the newest shows of your Plex server (another one each time the list is made, a few times a day, among the latest 8 of each kind) join the picks, with their own poster and backdrop, tagged "Plex". A tab shows at most one. Selecting one opens the title's page in the Plex app. If the server can't be reached when the list is made, its titles are left out.
+Ele pede a chave sem mostrá-la, verifica no seu servidor (uma busca, um preview e um original, como a TV faz), a põe no armazenamento privado do app na TV por adb, e pergunta à TV se chegou. Ela nunca vai para o APK, que qualquer app na TV pode ler, nem para o `config.properties`; `--remove` a tira da TV. Uma TV sem a chave mantém *Minhas Fotos* como acima.
 
-This is for Google TV and Android TV, and it needs the TMDB key and at least one streaming app on the TV: without those no picks come at all, Plex included.
+A cada 6 horas, quando a tela inicial abre, uma nova escolha aleatória de até 40 fotos entra (pelo menos 1080 pixels no lado curto), uma por vez, pela mesma importação. Nada sai antes de algo novo chegar: nas 100, as mais antigas do Immich dão lugar, e as fotos que você enviou com `tools/photos.py` sempre ficam. *Ajustes da Tela Inicial* → *Minhas Fotos* escolhe então de onde vêm: *Padrão* (nenhuma sua: as fotos das recomendações), *Immich: todas as fotos* ou um dos álbuns; depois da mudança, as anteriores saem conforme as novas chegam. TVs com pouca memória ou tela 720p pegam o preview do Immich de cada foto em vez do original.
 
-- **`plex_url`** is the server's own `plex.direct` address, which has a valid certificate (the TV checks it as for any site; plain `http` and any other address are ignored, so a typo never sends your token anywhere). It looks like `https://192-168-1-20.0123456789abcdef0123456789abcdef.plex.direct:32400`: your server's local IP with dashes, then its id. Open any item in Plex's web app, *Get Info → View XML*, and the address bar has it, before `/library/...`.
-- **`plex_token`** is on the same address, after `X-Plex-Token=`. It gives access to your Plex account, and any app on the TV can read the APK it is built into, so use the token of a Plex Home *managed user* with access to your libraries, not your own, and never commit it.
+Um servidor dado como `http://` deve estar na sua rede (um endereço privado como `192.168.1.20`, ou um nome `.local`, `.lan` ou `.home.arpa`; o build recusa outra coisa), e só o endereço dele pode ser alcançado sem HTTPS; qualquer outra coisa precisa de `https://` (no Tailscale, o endereço `https://<máquina>.<tailnet>.ts.net` do servidor, que o Tailscale pode servir com certificado). O app nunca segue um redirecionamento dele, então a chave só vai para aquele endereço.
 
-The TV talks to your server directly on your network. If the server can't be reached, the other picks load as usual.
+### Sua biblioteca Plex (opcional)
 
-## Going back
+Ponha `plex_url` e `plex_token` no `config.properties`, e um dos filmes mais novos e uma das séries mais novas do seu servidor Plex (outros a cada vez que a lista é feita, algumas vezes por dia, entre os 8 mais recentes de cada tipo) entram nas recomendações, com pôster e backdrop próprios, marcados "Plex". Uma aba mostra no máximo um. Selecionar um abre a página do título no app do Plex. Se o servidor não puder ser alcançado quando a lista é feita, os títulos dele ficam de fora.
 
-On the TV: *Free My TV* → *Home Screen* → *Original*. The factory home screen, screensaver and every app come back exactly as they were. If the new home screen ever crashes three times in five minutes, it switches back by itself.
+Isso é para Google TV e Android TV, e precisa da chave TMDB e de pelo menos um app de streaming na TV: sem isso nenhuma recomendação vem, Plex incluído.
 
-To remove it for good, switch to *Original* first, then uninstall *Free My TV* (Settings → Apps). Uninstalled it while it was on? Install it again and pick *Original*: the list of what it turned off is kept in the TV's settings, so everything comes back.
+- **`plex_url`** é o endereço `plex.direct` do próprio servidor, que tem certificado válido (a TV o verifica como qualquer site; `http` puro e qualquer outro endereço são ignorados, então um erro de digitação nunca manda seu token para lugar nenhum). Ele tem a forma `https://192-168-1-20.0123456789abcdef0123456789abcdef.plex.direct:32400`: o IP local do seu servidor com travessões, e depois o id dele. Abra qualquer item no app web do Plex, *Get Info → View XML*, e a barra de endereço o tem, antes de `/library/...`.
+- **`plex_token`** está no mesmo endereço, depois de `X-Plex-Token=`. Ele dá acesso à sua conta Plex, e qualquer app na TV pode ler o APK em que é embutido, então use o token de um *managed user* do Plex Home com acesso às suas bibliotecas, não o seu, e nunca o commite.
 
-## What it changes
+A TV fala com o seu servidor direto, na sua rede. Se o servidor não puder ser alcançado, as outras recomendações carregam como sempre.
 
-- It becomes the home screen and, unless `screensaver=false`, the screensaver.
-- Picking Continue Watching in Home Settings grants `READ_TV_LISTINGS` with `pm grant` through the TV's own ADB; *Original* takes it back with `pm revoke`. Pictures come only from the TV (`content://`, `android.resource://`), never from the network.
-- It turns off, without uninstalling:
-  - the stock home screen and screensaver (the screensaver stays with `screensaver=false`);
-  - Google TV's recovery home, Play Games and YouTube Music;
-  - on TCL TVs, messages, store demo, hotel menu, manuals, mirroring and logging apps;
-  - on Philco TVs, AI PONT (promo channels and app downloads) and the manual;
-  - on Multilaser TVs, Anoki's screen-content recognition (ACR), the store demo and the manual;
-  - on KTC-made TVs (NextStar), Anoki's screen-content recognition (ACR), the store demo and the manual;
-  - Google Assistant, only with `disable_assistant=true`.
-- On Google TV, the Assistant's results for films and shows come from Google TV's home app, which is off in Free My TV mode: asking it to play a show can end in "Sorry, I don't understand", and a search can show only YouTube videos. Opening apps, questions and apps' own voice search (YouTube's, for one) still work; *Original* brings it all back.
-- On TCL TVs, the remote's Netflix, YouTube and Prime buttons keep working through a small accessibility service that only reads those buttons. Pick what each one opens in *Free My TV* → *Remote Buttons*; *Original* turns the service off. The Settings button opens TV Settings; in *Remote Buttons* it can open *Quick Settings* instead, a panel over what's playing (Inputs, Display, Sound, Network, Bluetooth, Accessibility and all settings) in place of Google TV's, which is part of its home screen. On TCL TVs with Android 11 the service stays off, since with it the TV moved the volume two steps per press: there the buttons work on Free My TV's home screen. On Vestel-made TVs (F&U and other store brands) and Xiaomi (Formovie) projectors the same goes for the Netflix button, and on KTC-made TVs (NextStar) for the Tabii button. On Sony TVs, the BRAVIA CORE, Netflix, Disney+, Prime Video, YouTube and Crunchyroll buttons (and Google Play or SonyLIV, on remotes that have them) can each open the app you pick, or keep Sony's default. On Sony's Google TV models, where those buttons went through Google TV's home screen, they open their own apps unless you pick otherwise. On Xiaomi TVs whose remote has a Mi button instead of Home, that button opens Free My TV instead of PatchWall (or, if you pick it, PatchWall as before, or another app). On Xiaomi TVs, the YouTube button opens YouTube again (Google TV's home screen answered it), and the PatchWall button can open the app you pick. On Xiaomi TVs sold in Russia, the same goes for the Okko, VK, Rutube, KION, Wink and IVI buttons, which keep Xiaomi's default until you pick another app. On Hisense TVs, the Prime Video, YouTube, Disney+, All Apps, Settings and profile buttons, which Google TV's home screen answered, open what you pick (All Apps opens Free My TV's own; Netflix stays with the TV). On the Google TV Streamer, the YouTube, Netflix and ★ buttons can each open the app you pick or Free My TV's All Apps: YouTube opens YouTube (Google TV's home screen answered it, and ★ too), and Netflix and ★ keep Google's default until you pick something, so ★ does nothing in Free My TV mode until then. On the JVC G24 (Skyworth), whose Inputs and Settings buttons need Google TV's home screen, Inputs opens the TV's list of inputs and Settings a small Quick Settings panel (Picture, Sound, Inputs, Wi-Fi, Bluetooth and TV Settings). On any of these TVs, setting every button to *Nothing* (or the brand's default) turns the service off.
-- With *Home Settings* → *Now Playing widget* on (it starts off), what an app is playing shows in place of the prices while it plays, on the home screen and the screensaver. Android hands that only to a notification listener, so turning the widget on allows ours through the TV's ADB; turning it off, *Original* and the switch back after crashes take it away. Where the TV refuses it, the row says so.
-- On HY300 projectors, whose stock home screen was the only way to them, the bottom drawer gets *Keystone* (keystone, zoom and projection mode) and *Screen Mirroring* (the projector's Miracast receiver), and HDMI opens through the projector's own player.
-- *Home Settings* → *Recent Apps* (off by default, Google TV and Android TV) puts *Recent Apps* in the bottom drawer, and on the remote's app-switch key where it has one; *Drawer and Home twice* also opens it with two quick presses of Home (not on Xiaomi TVs, whose remote sends one press as several), and *Top Buttons* can add it as a round button. It shows the open apps over the blurred home screen: OK opens one, ▲ closes it. Closing stops the app (`am force-stop`), so it starts from scratch next time; the TV's own pieces, what its inputs and remote need, apps whose accessibility service is on, and the keyboard can't be closed. It reads the list only while it's open, with `dumpsys activity recents` and `ps -A` through the TV's ADB.
-- On Google TV, Android TV and Fire TV, hold OK on a top button or shelf app to move it directly on Home: ◀ ▶ changes its position, OK saves, and Back cancels. Leaving Home also cancels an unfinished move. A short press still opens the item; the Shelf and Top Buttons editors in Settings remain available.
-- *Free My TV* → *Top Buttons* → *App Store* (Google TV, Android TV and Fire TV) adds a shopping-bag shortcut to the top of the home screen. It opens Google Play or, on Fire TV, Amazon Appstore. OK adds or removes it; ◀ ▶ moves it next to Live TV or wherever you prefer. It starts off, and is unavailable when neither supported store can be opened.
-- *Home Settings* → *At power-on* (Google TV and Android TV, where the TV has live TV) decides what shows after the TV starts from off; waking from standby is left alone. *TV's choice* (the default) changes nothing. *Home screen* gives the screen back to Free My TV when the TV's live TV app puts itself on top during the start, as some MediaTek TVs do, but only if no key has been pressed since the home screen came up. *Live TV* opens live TV about 10 seconds after the home screen comes up, unless a key was pressed first (on Sony, Sony's TV app, which remembers the last input and channel).
-- *Free My TV* → *Sleep Timer* turns the TV off after 5 minutes to 4 hours, with the minutes left over any app (top center, or the corner you pick). It presses the remote's Sleep key through the TV's own ADB, so it works in Free My TV mode; *Original* stops it.
-- Picture, sound, inputs, remote pairing, Google services and the Play Store are on a protected list, checked before every change, and so are Android's own pieces and factory menus. Before anything goes off, the TV is asked whether its inputs or its remote's Input key depend on it; those stay on.
-- On Google TV, the setup app goes off before the stock home screen and comes back after it, so its recovery screen never takes over the Home button in between.
-- Apps that saved a Wi-Fi network are never turned off, since Android would erase the network. If the TV's first setup saved yours, the switch asks you to forget the network and connect again in Settings first (saved networks out of range don't show there; Claude Code can remove them).
+## Voltando atrás
 
-## Any TV
+Na TV: *Free My TV* → *Tela Inicial* → *Original*. A tela inicial de fábrica, o protetor de tela e todos os apps voltam exatamente como eram. Se a nova tela inicial travar três vezes em cinco minutos, ela volta sozinha.
 
-Free My TV runs on Google TV and Android TV: TCL, Sony, Hisense, Philips, Xiaomi, Vestel-made TVs (F&U), KTC-made TVs (NextStar) and more, plus streamers like Chromecast with Google TV, the Google TV Streamer, onn 4K, the Xiaomi Mi TV Stick and NVIDIA Shield, and projectors like the Wanbo T2 Ultra. And on [LG](#lg-tvs-webos) and [Samsung](#samsung-tvs-tizen) TVs, as an app.
+Para remover de vez, volte para o *Original* primeiro, e desinstale o *Free My TV* (Configurações → Apps). Desinstalou com ele ligado? Instale de novo e escolha *Original*: a lista do que ele desligou fica guardada nos ajustes da TV, e tudo volta.
 
-**Huawei TVs (HarmonyOS) and the Kalley 43G200:** there Free My TV stays an app you open. After the switch, one of each didn't start again (the Huawei came back only with a factory reset), so the switch refuses on them, and one already switched by an older version goes back to *Original* by itself. On Fire TV it's an app too: Amazon's home screen keeps the Home button.
+## O que ele muda
 
-**Any other TV:** plug a Google TV streamer into HDMI and free that one. Same steps, same home screen.
+- Ele vira a tela inicial e, a menos que `screensaver=false`, o protetor de tela.
+- Escolher Continuar Assistindo nos Ajustes da Tela Inicial concede `READ_TV_LISTINGS` com `pm grant` pelo ADB da própria TV; o *Original* o revoga com `pm revoke`. As imagens vêm só da TV (`content://`, `android.resource://`), nunca da rede.
+- Ele desliga, sem desinstalar:
+  - a tela inicial e o protetor de tela de fábrica (o protetor fica com `screensaver=false`);
+  - a tela de recuperação da Google TV, o Play Games e o YouTube Music;
+  - em TVs TCL, apps de mensagens, demo de loja, menu de hotel, manuais, espelhamento e logs;
+  - em TVs Philco, AI PONT (canais promocionais e downloads de apps) e o manual;
+  - em TVs Multilaser, o reconhecimento de conteúdo de tela da Anoki (ACR), o demo de loja e o manual;
+  - em TVs feitas pela KTC (NextStar), o reconhecimento de conteúdo de tela da Anoki (ACR), o demo de loja e o manual;
+  - o Google Assistente, só com `disable_assistant=true`.
+- Na Google TV, os resultados do Assistente para filmes e séries vêm do app de tela inicial da Google TV, que fica desligado no modo Free My TV: pedir para reproduzir uma série pode acabar em "Desculpe, não entendi", e uma busca pode mostrar só vídeos do YouTube. Abrir apps, perguntas e a busca por voz dos próprios apps (a do YouTube, por exemplo) continuam funcionando; o *Original* traz tudo de volta.
+- Em TVs TCL, os botões Netflix, YouTube e Prime do controle continuam funcionando por um pequeno serviço de acessibilidade que só lê esses botões. Escolha o que cada um abre em *Free My TV* → *Botões do Controle*; o *Original* desliga o serviço. O botão Settings abre os Ajustes da TV; em *Botões do Controle* ele pode abrir *Quick Settings* em vez disso, um painel sobre o que está passando (Entradas, Imagem, Som, Rede, Bluetooth, Acessibilidade e todos os ajustes) no lugar do da Google TV, que é parte da tela inicial dela. Em TVs TCL com Android 11 o serviço fica desligado, já que com ele a TV movia o volume dois passos por toque: lá os botões funcionam na tela inicial do Free My TV. Em TVs feitas pela Vestel (F&U e outras marcas de loja) e projetores Xiaomi (Formovie) o mesmo vale para o botão Netflix, e em TVs feitas pela KTC (NextStar) para o botão Tabii. Em TVs Sony, os botões BRAVIA CORE, Netflix, Disney+, Prime Video, YouTube e Crunchyroll (e Google Play ou SonyLIV, nos controles que os têm) podem cada um abrir o app que você escolher, ou manter o padrão da Sony. Nos modelos Google TV da Sony, em que esses botões passavam pela tela inicial da Google TV, eles abrem os próprios apps a menos que você escolha outro. Em TVs Xiaomi cujo controle tem um botão Mi no lugar do Home, esse botão abre o Free My TV em vez do PatchWall (ou, se você escolher, o PatchWall como antes, ou outro app). Em TVs Xiaomi, o botão YouTube abre o YouTube de novo (a tela inicial da Google TV o respondia), e o botão PatchWall pode abrir o app que você escolher. Em TVs Xiaomi vendidas na Rússia, o mesmo vale para os botões Okko, VK, Rutube, KION, Wink e IVI, que mantêm o padrão da Xiaomi até você escolher outro app. Em TVs Hisense, os botões Prime Video, YouTube, Disney+, Todos os Apps, Ajustes e perfil, que a tela inicial da Google TV respondia, abrem o que você escolher (Todos os Apps abre o próprio do Free My TV; a Netflix fica com a TV). No Google TV Streamer, os botões YouTube, Netflix e ★ podem cada um abrir o app que você escolher ou o Todos os Apps do Free My TV: o YouTube abre o YouTube (a tela inicial da Google TV o respondia, e o ★ também), e a Netflix e o ★ mantêm o padrão do Google até você escolher algo, então o ★ não faz nada no modo Free My TV até lá. No JVC G24 (Skyworth), cujos botões Entradas e Ajustes precisam da tela inicial da Google TV, Entradas abre a lista de entradas da TV e Ajustes um pequeno painel de Quick Settings (Imagem, Som, Entradas, Wi‑Fi, Bluetooth e Ajustes da TV). Em qualquer uma dessas TVs, pôr todos os botões em *Nada* (ou no padrão da marca) desliga o serviço.
+- Com *Ajustes da Tela Inicial* → *Widget Tocando Agora* ligado (começa desligado), o que um app está tocando aparece no lugar dos preços enquanto toca, na tela inicial e no protetor de tela. O Android entrega isso só a um notification listener, então ligar o widget permite o nosso pelo ADB da TV; desligá-lo, o *Original* e a volta após travamentos o levam embora. Onde a TV o recusa, a linha avisa.
+- Em projetores HY300, cuja tela inicial de fábrica era o único caminho até ela, a gaveta de baixo ganha *Keystone* (keystone, zoom e modo de projeção) e *Espelhamento de Tela* (o receiver Miracast do projetor), e o HDMI abre pelo player do próprio projetor.
+- *Ajustes da Tela Inicial* → *Apps Recentes* (desligado por padrão, Google TV e Android TV) põe *Apps Recentes* na gaveta de baixo, e na tecla de troca de app do controle onde ela existe; *Gaveta e Home duas vezes* também o abre com dois toques rápidos em Home (não em TVs Xiaomi, cujo controle envia um toque como vários), e *Botões do Topo* pode adicioná-lo como um botão redondo. Ele mostra os apps abertos sobre a tela inicial borrada: o OK abre um, ▲ o fecha. Fechar encerra o app (`am force-stop`), então ele começa do zero na próxima vez; as peças próprias da TV, o que as entradas e o controle dela precisam, apps cujo serviço de acessibilidade está ligado e o teclado não podem ser fechados. Ele lê a lista só enquanto está aberto, com `dumpsys activity recents` e `ps -A` pelo ADB da TV.
+- Na Google TV, Android TV e Fire TV, segure OK num botão do topo ou num app da prateleira para movê-lo direto na Home: ◀ ▶ muda a posição, OK salva, e Voltar cancela. Sair da Home também cancela uma movimentação incompleta. Um toque curto ainda abre o item; os editores de Prateleira e Botões do Topo nos Ajustes continuam disponíveis.
+- *Free My TV* → *Botões do Topo* → *Loja de Apps* (Google TV, Android TV e Fire TV) adiciona um atalho de sacola de compras no topo da tela inicial. Ele abre a Google Play ou, no Fire TV, a Amazon Appstore. OK adiciona ou remove; ◀ ▶ o move para perto da TV ao vivo, ou onde você preferir. Começa desligado, e fica indisponível quando nenhuma loja suportada pode ser aberta.
+- *Ajustes da Tela Inicial* → *Ao ligar* (Google TV e Android TV, onde a TV tem TV ao vivo) decide o que aparece depois de a TV ligar; acordar do standby é deixado de lado. *Escolha da TV* (o padrão) não muda nada. *Tela inicial* devolve a tela ao Free My TV quando o app de TV ao vivo da TV se põe na frente durante o início, como algumas TVs MediaTek fazem, mas só se nenhuma tecla foi apertada desde que a tela inicial surgiu. *TV ao vivo* abre a TV ao vivo uns 10 segundos depois de a tela inicial surgir, a menos que uma tecla tenha sido apertada antes (na Sony, o app de TV da Sony, que lembra a última entrada e o último canal).
+- *Free My TV* → *Temporizador* desliga a TV depois de 5 minutos a 4 horas, com os minutos que faltam sobre qualquer app (no topo, ao centro, ou no canto que você escolher). Ele aperta a tecla Sleep do controle pelo ADB da própria TV, então funciona no modo Free My TV; o *Original* o para.
+- Imagem, som, entradas, pareamento do controle, serviços do Google e a Play Store estão numa lista protegida, verificada antes de cada mudança, e as peças do próprio Android e menus de fábrica também. Antes de algo desligar, a TV é perguntada se as entradas dela ou a tecla Input do controle dependem disso; essas ficam ligadas.
+- Na Google TV, o app de configuração desliga antes da tela inicial de fábrica e volta depois dela, então a tela de recuperação dele nunca toma o botão Home no meio do caminho.
+- Apps que salvaram uma rede Wi‑Fi nunca são desligados, já que o Android apagaria a rede. Se a configuração inicial da TV salvou a sua, a troca pede para você esquecer a rede e conectar de novo nos Ajustes primeiro (redes salvas fora de alcance não aparecem lá; o Claude Code pode removê-las).
 
-**A different brand or model:** ask Claude. Free My TV is made to be adapted by AI. Open the folder in Claude Code and say *"set it up for my Sony"*: it reads your TV, finds its home screen and its promo apps, updates the lists below and walks you through a test. [CLAUDE.md](CLAUDE.md) tells it how.
+## Qualquer TV
 
-| What | Where |
+O Free My TV roda na Google TV e Android TV: TCL, Sony, Hisense, Philips, Xiaomi, TVs feitas pela Vestel (F&U), feitas pela KTC (NextStar) e outras, além de streamers como o Chromecast com Google TV, o Google TV Streamer, onn 4K, o Xiaomi Mi TV Stick e NVIDIA Shield, e projetores como o Wanbo T2 Ultra. E em TVs [LG](#tvs-lg-webos) e [Samsung](#tvs-samsung-tizen), como um app.
+
+**TVs Huawei (HarmonyOS) e a Kalley 43G200:** nelas o Free My TV fica como um app para abrir. Depois da troca, uma de cada não ligou de novo (a Huawei só voltou com uma restauração de fábrica), então a troca recusa nelas, e uma já trocada por uma versão mais antiga volta para o *Original* sozinha. No Fire TV também é um app: a tela inicial da Amazon guarda o botão Home.
+
+**Qualquer outra TV:** ligue um streamer Google TV no HDMI e liberte essa. Mesmos passos, mesma tela inicial.
+
+**Outra marca ou modelo:** pergunte ao Claude. O Free My TV é feito para ser adaptado por IA. Abra a pasta no Claude Code e diga *"configure para a minha Sony"*: ele lê a sua TV, acha a tela inicial dela e os apps promocionais, atualiza as listas abaixo e te guia num teste. O [CLAUDE.md](CLAUDE.md) diz como.
+
+| O quê | Onde |
 |---|---|
-| Apps to turn off | `DEBLOAT` in [`HomeMode.java`](app/src/io/freemytv/HomeMode.java) |
-| Apps never to touch | `PROTECTED` in the same file |
-| Apps on the shelf | `SHELF` in [`HomeApps.java`](app/src/io/freemytv/HomeApps.java) |
-| Your brand's live TV app | `LIVE_TV_APPS` in the same file |
+| Apps para desligar | `DEBLOAT` no [`HomeMode.java`](app/src/io/freemytv/HomeMode.java) |
+| Apps para nunca tocar | `PROTECTED` no mesmo arquivo |
+| Apps da prateleira | `SHELF` no [`HomeApps.java`](app/src/io/freemytv/HomeApps.java) |
+| O app de TV ao vivo da sua marca | `LIVE_TV_APPS` no mesmo arquivo |
 
-## Make it yours
+## Deixe com a sua cara
 
-It's your code, and Claude Code finds its way around it. Try:
+É o seu código, e o Claude Code se acha nele. Experimente:
 
-- *"Add Crunchyroll to the shelf."*
-- *"Show the prices in euros."*
-- *"Add Catalan."*
-- *"Switch to the night look an hour after sunset."*
+- *"Adiciona o Crunchyroll à prateleira."*
+- *"Mostra os preços em euros."*
+- *"Adiciona catalão."*
+- *"Muda para o visual noturno uma hora depois do pôr do sol."*
 
-## How it works
+## Como funciona
 
-- **A plain Android app, no Gradle, no libraries.** [`build.sh`](build.sh) runs aapt2 → javac → d8 → zipalign → apksigner and makes a 2 MB APK.
-- **It uses the TV's own ADB, from inside the TV.** The app connects to `127.0.0.1:5555` with its own key (that's the *Allow USB debugging?* prompt) and runs the same commands you would: `cmd package set-home-activity`, `settings put secure screensaver_components`, `pm disable-user`, `pm grant` / `pm revoke` for Continue Watching, and, while Recent Apps is open (it starts off), `dumpsys activity recents`, `ps -A -o NAME`, `settings get secure enabled_accessibility_services` and `default_input_method`, and `am force-stop` for an app you close. Nothing listens to the network.
-- **Drawn by hand on one Canvas**, with Android 13 shaders for the frosted glass and the sky (plain fills on Android 8 to 12, with lighter shadows and no GPU layers on 8 to 11 for their older GPUs).
-- **A safety net.** A watchdog in a separate process brings back the stock home screen after three crashes in five minutes, and a boot check keeps your choice after TV updates.
-- **On LG and Samsung, the same design in plain HTML, CSS and JavaScript** ([`web/`](web)), written for the Chromium of older TVs, with no frameworks. [`webos/build.py`](webos/build.py) packs it with `config.properties` into an `.ipk` without LG's tools, and [`webos/install.py`](webos/install.py) installs it through Developer Mode; on LG it lists and opens apps through the TV's own service bus (Luna), as LG's launcher does. [`tizen/build.py`](tizen/build.py) packs the same app into a Samsung `.wgt`, which uses Tizen's web APIs for the apps and the inputs. To preview it on a computer: `python3 webos/build.py --preview`, then open `out/webos/index.html` (a stand-in lists sample apps).
-- **Continue Watching** reads Android TV's Watch Next list (what apps share about what you're watching). Only picking it grants `READ_TV_LISTINGS` through the TV's ADB; *Original* revokes it. Pictures load only from the TV (`content://`, `android.resource://`), never from the network.
-- **Data** comes only from TMDB (trending titles, new releases and which app streams what in your country), Open-Meteo (forecast, sunrise and sunset), optionally Binance (24-hour prices when `show_crypto=true`), optionally Watchmode (the picks' own pages in their apps, with a `watchmode_key`), optionally your Plex server (with a `plex_url`), optionally your Immich server (your photos, with an `immich_server` and its key) and optionally Trakt (what you're watching and your watchlist, with a `trakt_client_id`, once you sign in on the TV).
+- **Um app Android comum, sem Gradle, sem bibliotecas.** O [`build.sh`](build.sh) roda aapt2 → javac → d8 → zipalign → apksigner e faz um APK de 2 MB.
+- **Ele usa o ADB da própria TV, de dentro da TV.** O app conecta a `127.0.0.1:5555` com a chave dele (é o aviso *Permitir depuração USB?*) e roda os mesmos comandos que você: `cmd package set-home-activity`, `settings put secure screensaver_components`, `pm disable-user`, `pm grant` / `pm revoke` para o Continuar Assistindo e, com os Apps Recentes abertos (começa desligado), `dumpsys activity recents`, `ps -A -o NAME`, `settings get secure enabled_accessibility_services` e `default_input_method`, e `am force-stop` para um app que você fecha. Nada escuta a rede.
+- **Desenhado à mão num único Canvas**, com shaders do Android 13 para o vidro fosco e o céu (preenchimentos simples no Android 8 a 12, com sombras mais leves e sem camadas de GPU no 8 a 11, pelas GPUs mais antigas deles).
+- **Uma rede de segurança.** Um watchdog num processo separado traz de volta a tela inicial de fábrica depois de três travamentos em cinco minutos, e uma checagem de boot guarda a sua escolha depois das atualizações da TV.
+- **Na LG e Samsung, o mesmo design em HTML, CSS e JavaScript puros** ([`web/`](web)), escrito para o Chromium de TVs antigas, sem frameworks. O [`webos/build.py`](webos/build.py) empacota com o `config.properties` num `.ipk` sem as ferramentas da LG, e o [`webos/install.py`](webos/install.py) instala pelo Developer Mode; na LG ele lista e abre apps pelo barramento de serviços da própria TV (Luna), como o launcher da LG faz. O [`tizen/build.py`](tizen/build.py) empacota o mesmo app num `.wgt` da Samsung, que usa as APIs web do Tizen para os apps e as entradas. Para prever no computador: `python3 webos/build.py --preview`, e abra `out/webos/index.html` (um substituto lista apps de exemplo).
+- **Continuar Assistindo** lê a lista Watch Next do Android TV (o que os apps compartilham sobre o que você assiste). Só escolher concede `READ_TV_LISTINGS` pelo ADB da TV; o *Original* o revoga. As imagens carregam só da TV (`content://`, `android.resource://`), nunca da rede.
+- **Os dados** vêm só do TMDB (títulos em alta, lançamentos e qual app transmite o quê no seu país), Open-Meteo (previsão, nascer e pôr do sol), opcionalmente da Binance (preços de 24 horas quando `show_crypto=true`), opcionalmente do Watchmode (as páginas próprias das recomendações nos apps, com uma `watchmode_key`), opcionalmente do seu servidor Plex (com um `plex_url`), opcionalmente do seu servidor Immich (suas fotos, com um `immich_server` e a chave dele) e opcionalmente do Trakt (o que você assiste e sua watchlist, com um `trakt_client_id`, uma vez que você entre na TV).
 
-| File | What it is |
+| Arquivo | O que é |
 |---|---|
-| [`HomeView.java`](app/src/io/freemytv/HomeView.java) | The home screen |
-| [`HomeMode.java`](app/src/io/freemytv/HomeMode.java) | Switching between Free My TV and Original |
-| [`Adb.java`](app/src/io/freemytv/Adb.java) | The TV's own ADB, from inside the TV |
-| [`Recs.java`](app/src/io/freemytv/Recs.java) | The picks (TMDB) |
-| [`KeyPage.java`](app/src/io/freemytv/KeyPage.java), [`Qr.java`](app/src/io/freemytv/Qr.java) | The TMDB and Watchmode keys sent from a phone, and the QR code |
-| [`WatchNext.java`](app/src/io/freemytv/WatchNext.java) | Continue Watching from the TV's lists |
-| [`WatchArt.java`](app/src/io/freemytv/WatchArt.java) | Continue Watching pictures, only from the TV |
-| [`HomeData.java`](app/src/io/freemytv/HomeData.java) | Weather and prices |
-| [`HomeApps.java`](app/src/io/freemytv/HomeApps.java) | The shelf, inputs and All Apps |
-| [`DreamView.java`](app/src/io/freemytv/DreamView.java) | The screensaver |
-| [`SettingsActivity.java`](app/src/io/freemytv/SettingsActivity.java) | The settings screen (the app's icon) |
-| [`Prefs.java`](app/src/io/freemytv/Prefs.java) | Settings changed on the TV |
-| [`RemoteKeys.java`](app/src/io/freemytv/RemoteKeys.java) | The remote's app buttons (TCL, Sony, Xiaomi and others) |
-| [`RecentApps.java`](app/src/io/freemytv/RecentApps.java), [`ScreenBlur.java`](app/src/io/freemytv/ScreenBlur.java) | Recent Apps, over a blurred copy of the screen |
-| [`Watchdog.java`](app/src/io/freemytv/Watchdog.java) | The safety net |
-| [`web/home.js`](web/home.js) | The home screen on LG TVs |
-| [`web/tv.js`](web/tv.js) | The TV's apps and inputs, on LG and Samsung |
-| [`webos/build.py`](webos/build.py), [`webos/install.py`](webos/install.py) | The LG app package and its install |
-| [`tizen/build.py`](tizen/build.py) | The Samsung app package |
+| [`HomeView.java`](app/src/io/freemytv/HomeView.java) | A tela inicial |
+| [`HomeMode.java`](app/src/io/freemytv/HomeMode.java) | A troca entre Free My TV e Original |
+| [`Adb.java`](app/src/io/freemytv/Adb.java) | O ADB da própria TV, de dentro da TV |
+| [`Recs.java`](app/src/io/freemytv/Recs.java) | As recomendações (TMDB) |
+| [`KeyPage.java`](app/src/io/freemytv/KeyPage.java), [`Qr.java`](app/src/io/freemytv/Qr.java) | As chaves TMDB e Watchmode enviadas do celular, e o QR code |
+| [`WatchNext.java`](app/src/io/freemytv/WatchNext.java) | Continuar Assistindo, das listas da TV |
+| [`WatchArt.java`](app/src/io/freemytv/WatchArt.java) | As imagens do Continuar Assistindo, só da TV |
+| [`HomeData.java`](app/src/io/freemytv/HomeData.java) | Tempo e preços |
+| [`HomeApps.java`](app/src/io/freemytv/HomeApps.java) | A prateleira, as entradas e Todos os Apps |
+| [`DreamView.java`](app/src/io/freemytv/DreamView.java) | O protetor de tela |
+| [`SettingsActivity.java`](app/src/io/freemytv/SettingsActivity.java) | A tela de ajustes (o ícone do app) |
+| [`Prefs.java`](app/src/io/freemytv/Prefs.java) | Ajustes mudados na TV |
+| [`RemoteKeys.java`](app/src/io/freemytv/RemoteKeys.java) | Os botões de app do controle (TCL, Sony, Xiaomi e outros) |
+| [`RecentApps.java`](app/src/io/freemytv/RecentApps.java), [`ScreenBlur.java`](app/src/io/freemytv/ScreenBlur.java) | Apps Recentes, sobre uma cópia borrada da tela |
+| [`Watchdog.java`](app/src/io/freemytv/Watchdog.java) | A rede de segurança |
+| [`web/home.js`](web/home.js) | A tela inicial nas TVs LG |
+| [`web/tv.js`](web/tv.js) | Os apps e as entradas da TV, na LG e Samsung |
+| [`webos/build.py`](webos/build.py), [`webos/install.py`](webos/install.py) | O pacote do app LG e a instalação dele |
+| [`tizen/build.py`](tizen/build.py) | O pacote do app Samsung |
 
-The website ([freemytv.io](https://freemytv.io)) is in [`docs/`](docs): plain HTML, CSS and JS on GitHub Pages.
+O site ([freemytv.io](https://freemytv.io)) está em [`docs/`](docs): HTML, CSS e JS puros no GitHub Pages.
 
-## Translations
+## Traduções
 
-On Google TV, LG and Samsung, each language is one file, [`app/assets/i18n/<lang>.json`](app/assets/i18n), keyed by the
-English text in the code. *Automatic* follows the TV's language and uses any language that has a file (English otherwise); *Home
-Settings* → *Language* lists them all. Today: English, Portuguese, Spanish, German, French, Italian, Dutch, Polish,
-Swedish, Danish, Norwegian, Finnish, Czech, Romanian, Turkish, Russian, Ukrainian, Greek, Japanese, Korean, Simplified
-and Traditional Chinese, Hindi, Indonesian, Vietnamese and Thai. Portuguese, Spanish, German, Russian, Thai and Turkish were translated by hand and are the
-reference (fix them by hand); the others were machine-made, and corrections from native speakers are welcome.
+Na Google TV, LG e Samsung, cada idioma é um arquivo, [`app/assets/i18n/<lang>.json`](app/assets/i18n), chaveado pelo
+texto em inglês no código. *Automático* segue o idioma da TV e usa qualquer idioma que tenha arquivo (inglês caso contrário); *Ajustes
+da Tela Inicial* → *Idioma* lista todos. Hoje: inglês, português, espanhol, alemão, francês, italiano, holandês, polonês,
+sueco, dinamarquês, norueguês, finlandês, tcheco, romeno, turco, russo, ucraniano, grego, japonês, coreano, chinês
+simplificado e tradicional, híndi, indonésio, vietnamita e tailandês. Português, espanhol, alemão, russo, tailandês e turco foram traduzidos à mão e são a
+referência (corrija-os à mão); os outros foram feitos por máquina, e correções de falantes nativos são bem-vindas.
 
-- **Add a language:** `python3 tools/translate.py --new ca`, then fill `app/assets/i18n/ca.json` by hand, or with
-  `ANTHROPIC_API_KEY` set, `python3 tools/translate.py --fill --lang ca` (only the strings go to the API).
-- **After changing text in the code:** `python3 tools/translate.py` lists what each language lacks; `--fill` translates
-  only that (the hand-translated ones, Portuguese, Spanish, German, Russian, Thai and Turkish, are left for a person
-  unless `--lang` names them), `--prune` drops strings the code no longer uses.
-  Run `python3 tools/translate.py --check` to validate all catalogues without writing files.
-- Text built at runtime has placeholders (`"{n} min ago"`), so each language puts the words in its own order. A key
-  like `"unit|Automatic"` is the same English in another place, where a language may need another word.
-- Counts have plural forms: `"plural|one:{n} season|other:{n} seasons"` is translated with one form per plural
-  category the language uses (Russian `"one:{n} сезон|few:{n} сезона|many:{n} сезонов|other:{n} сезона"`, Japanese
-  just `"other:{n}シーズン"`), and Android's plural rules pick the one for each number.
-- **Limits:** right-to-left languages (Arabic, Hebrew, Persian) would need the layout mirrored, so they aren't there
-  yet. Chinese, Japanese, Korean and Hindi are drawn with the TV's system font (Inter has no such letters).
+- **Adicionar um idioma:** `python3 tools/translate.py --new ca`, e preencha `app/assets/i18n/ca.json` à mão, ou, com
+  `ANTHROPIC_API_KEY` definida, `python3 tools/translate.py --fill --lang ca` (só as strings vão para a API).
+- **Depois de mudar texto no código:** `python3 tools/translate.py` lista o que falta a cada idioma; `--fill` traduz
+  só isso (os traduzidos à mão — português, espanhol, alemão, russo, tailandês e turco — ficam para uma pessoa,
+  a menos que `--lang` os nomeie), `--prune` descarta strings que o código não usa mais.
+  Rode `python3 tools/translate.py --check` para validar todos os catálogos sem escrever arquivos.
+- Texto construído em tempo de execução tem placeholders (`"{n} min ago"`), então cada idioma põe as palavras na
+  ordem dele. Uma chave como `"unit|Automatic"` é o mesmo inglês em outro lugar, onde um idioma pode precisar de
+  outra palavra.
+- Contagens têm formas de plural: `"plural|one:{n} season|other:{n} seasons"` é traduzido com uma forma por
+  categoria de plural que o idioma usa (russo `"one:{n} сезон|few:{n} сезона|many:{n} сезонов|other:{n} сезона"`,
+  japonês só `"other:{n}シーズン"`), e as regras de plural do Android escolhem a de cada número.
+- **Limites:** idiomas da direita para a esquerda (árabe, hebraico, persa) precisariam do layout espelhado, então
+  ainda não estão lá. Chinês, japonês, coreano e híndi são desenhados com a fonte do sistema da TV (a Inter não tem
+  tais letras).
 
-## Privacy
+## Privacidade
 
-No accounts, no analytics, no tracking. The app talks to TMDB, Open-Meteo (with the coordinates you set, or your time zone's main city), and Binance only when `show_crypto=true`, Watchmode only when you set a key, your Plex server only when you set a `plex_url`, your Immich server only when you set one, and Trakt (api.trakt.tv) only when you set a `trakt_client_id` and sign in on the TV. With `home_assistant_url` set and *Home Settings* → *Home Assistant* on, it talks to that server, yours, and to no other: only while the bottom drawer is open, to read the states of the entities you listed and to call the one you press. Turned off, nothing is asked of it, and the names it read are forgotten. On Google TV and Android TV, the APK from the release asks GitHub (api.github.com) once a week, or when you press *Updates*, for the latest release, and when there's a newer one downloads it from github.com and GitHub's download server (release-assets.githubusercontent.com); a build you made yourself asks only when you press *Updates*. The *Now Playing widget* reads what apps are playing (title, artist, the app) through a notification listener, the only way Android shares it: Free My TV allows the listener only while the widget is on, never reads a notification with it, and asks Android to unbind it as soon as it connects, so it stays unbound. What's playing never leaves the TV. While *Home Settings* → *TMDB key* or *Watchmode key* shows its QR code (5 minutes at most), the TV answers on your home network at that code's address, for one key; the key goes only to that service, to check it. Continue Watching (Home Settings) reads what your apps note on the TV itself and shows only pictures already on the TV: it downloads nothing. *Home Settings* → *Status icons* reads only whether the TV has Wi-Fi or Ethernet, a Bluetooth audio device and a mounted USB drive, and only while the row is on: on Android 12 and newer it asks for *Nearby devices* (BLUETOOTH_CONNECT) for the Bluetooth part, and none of it leaves the TV. Your settings stay on your computer and your TV.
+Sem contas, sem analytics, sem rastreamento. O app fala com o TMDB, o Open-Meteo (com as coordenadas que você definiu, ou a cidade principal do seu fuso horário) e a Binance só quando `show_crypto=true`, com o Watchmode só quando você define uma chave, com o seu servidor Plex só quando você define um `plex_url`, com o seu servidor Immich só quando você define um, e com o Trakt (api.trakt.tv) só quando você define um `trakt_client_id` e entra na TV. Com `home_assistant_url` definido e *Ajustes da Tela Inicial* → *Home Assistant* ligado, ele fala com aquele servidor, seu, e com nenhum outro: só enquanto a gaveta de baixo está aberta, para ler os estados das entidades que você listou e chamar a que você aperta. Desligado, nada é pedido a ele, e os nomes que ele leu são esquecidos. Na Google TV e Android TV, o APK da release pergunta ao GitHub (api.github.com) uma vez por semana, ou quando você aperta *Atualizações*, pela última release, e quando há uma mais nova a baixa de github.com e do servidor de downloads do GitHub (release-assets.githubusercontent.com); um build feito por você pergunta só quando você aperta *Atualizações*. O *Widget Tocando Agora* lê o que os apps estão tocando (título, artista, o app) por um notification listener, o único jeito com que o Android compartilha isso: o Free My TV permite o listener só enquanto o widget está ligado, nunca lê uma notificação com ele, e pede ao Android para desvinculá-lo assim que conecta, então ele fica desvinculado. O que está tocando nunca sai da TV. Enquanto *Ajustes da Tela Inicial* → *Chave TMDB* ou *Chave Watchmode* mostra o QR code (5 minutos no máximo), a TV responde na sua rede doméstica no endereço daquele código, para uma chave; a chave vai só para aquele serviço, para verificação. O Continuar Assistindo (Ajustes da Tela Inicial) lê o que seus apps anotam na própria TV e mostra só imagens que já estão na TV: não baixa nada. *Ajustes da Tela Inicial* → *Ícones de status* lê só se a TV tem Wi‑Fi ou Ethernet, um dispositivo de áudio Bluetooth e um drive USB montado, e só enquanto a linha está ligada: no Android 12 e mais novos pede *Dispositivos próximos* (BLUETOOTH_CONNECT) para a parte do Bluetooth, e nada disso sai da TV. Suas configurações ficam no seu computador e na sua TV.
 
-## Credits
+## Créditos
 
-- Built with [Claude Code](https://claude.com/claude-code).
-- The LG version builds on what [@danielthejoker18](https://github.com/danielthejoker18) found in [FreeMyTvWebOS](https://github.com/danielthejoker18/FreeMyTvWebOS) (MIT): installing through Developer Mode and opening apps through the TV's service bus.
-- On Samsung TVs it installs with [TizenBrew Installer](https://github.com/reisxd/TizenBrewInstaller) by [@reisxd](https://github.com/reisxd).
-- This product uses the TMDB API but is not endorsed or certified by [TMDB](https://www.themoviedb.org/).
-- Links to the titles in the streaming apps by [Watchmode](https://api.watchmode.com/).
-- Weather data by [Open-Meteo.com](https://open-meteo.com/) (CC BY 4.0). Prices from the [Binance](https://www.binance.com/) public API.
-- Icons: [Material Symbols](https://fonts.google.com/icons) (Apache 2.0). Font: [Inter](https://rsms.me/inter/) (SIL OFL 1.1). Coin logos: [cryptocurrency-icons](https://github.com/spothq/cryptocurrency-icons) (CC0). Samsung app logos: [Simple Icons](https://simpleicons.org) (CC0).
-- The QR code encoder follows Project Nayuki's [QR Code generator](https://www.nayuki.io/page/qr-code-generator-library) (MIT).
-- Not affiliated with Google, TCL, LG, Samsung or any streaming service. App names and logos belong to their owners.
+- Feito com [Claude Code](https://claude.com/claude-code).
+- A versão LG se apoia no que [@danielthejoker18](https://github.com/danielthejoker18) achou no [FreeMyTvWebOS](https://github.com/danielthejoker18/FreeMyTvWebOS) (MIT): instalar pelo Developer Mode e abrir apps pelo barramento de serviços da TV.
+- Em TVs Samsung ele instala com o [TizenBrew Installer](https://github.com/reisxd/TizenBrewInstaller) de [@reisxd](https://github.com/reisxd).
+- Este produto usa a API do TMDB, mas não é endossado ou certificado pelo [TMDB](https://www.themoviedb.org/).
+- Links para os títulos nos apps de streaming pelo [Watchmode](https://api.watchmode.com/).
+- Dados de tempo por [Open-Meteo.com](https://open-meteo.com/) (CC BY 4.0). Preços da API pública da [Binance](https://www.binance.com/).
+- Ícones: [Material Symbols](https://fonts.google.com/icons) (Apache 2.0). Fonte: [Inter](https://rsms.me/inter/) (SIL OFL 1.1). Logos das moedas: [cryptocurrency-icons](https://github.com/spothq/cryptocurrency-icons) (CC0). Logos dos apps Samsung: [Simple Icons](https://simpleicons.org) (CC0).
+- O codificador de QR code segue o [QR Code generator](https://www.nayuki.io/page/qr-code-generator-library) do Project Nayuki (MIT).
+- Sem afiliação com Google, TCL, LG, Samsung ou qualquer serviço de streaming. Nomes e logos de apps pertencem aos seus donos.
 
-## License
+## Licença
 
 [MIT](LICENSE). Fork it, change it, ship it.
